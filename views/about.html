@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lego Collection</title>
+  <link rel="stylesheet" href="/css/main.css" />
+
+</head>
+
+<body tabindex="-1">
+  <div class="navbar bg-base-100">
+    <div class="flex-1">
+      <a class="btn btn-ghost normal-case text-xl" href="/">Lego Collection</a>
+    </div>
+
+    <div class="dropdown">
+      <label tabindex="0" class="btn btn-ghost sm:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+        </svg>
+      </label>
+      <ul tabindex="0" class="menu menu-sm dropdown-content right-0 mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+        <li><a class="active" href="/about">About</a></li>
+        <li>
+          <details>
+            <summary>
+              Theme
+            </summary>
+            <ul class="p-2 bg-base-100">
+              <li><a href="/lego/sets?theme=Creator">Creator</a></li>
+              <li><a href="/lego/sets?theme=Airport">Airport</a></li>
+              <li><a href="/lego/sets?theme=Universal Building Set">Universal Building Set</a></li>
+            </ul>
+          </details>
+        </li>
+      </ul>
+    </div>
+
+    <div class="navbar-center hidden sm:flex">
+      <ul class="menu menu-horizontal px-1">
+        <li><a class="active" href="/about">About</a></li>
+        <li>
+          <details>
+            <summary>Theme</summary>
+            <ul class="p-2 bg-base-100 right-0">
+              <li><a href="/lego/sets?theme=Creator">Creator</a></li>
+              <li><a href="/lego/sets?theme=Airport">Airport</a></li>
+              <li><a href="/lego/sets?theme=Universal Building Set">Universal Building Set</a></li>
+            </ul>
+          </details>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <br />
+
+  <div class="container mx-auto">
+
+    <div class="hero bg-base-200 rounded-lg p-6">
+      <div class="hero-content text-center ">
+        <div class="max-w-md">
+          <h1 class="text-5xl font-bold">About</h1>
+          
+          <p class="py-6">Discover all about me - your guide through design &amp; development.</p>
+
+        </div>
+      </div>
+    </div>
+
+    <br />
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div>
+        <img class="w-full rounded-lg"
+          src="https://images.adsttc.com/media/images/6196/b960/9a95/7a76/4f1e/5b68/large_jpg/newnham-campus-food-hall-taylor-smyth-architects-20.jpg?1637267827"
+          alt="profile" />
+
+      </div>
+      <div class="prose">
+
+        <p>My name is Mohdeep Singh and I'm currently studying in the CPA program at Seneca College.</p>
+
+        <p>I am passionately immersed in the study of architecture, with a strong inclination 
+            towards building design and the arts, currently honed at Seneca College. 
+            My educational journey is characterized by a deep commitment to exploring 
+            the creative and technical aspects of architecture. Each class allows me
+             to deepen my understanding of design principles 
+            and artistic expression, enriching my perspective on the built environment.</p>
+
+      </div>
+
+    </div>
+
+  </div>
+</body>
+
+</html>

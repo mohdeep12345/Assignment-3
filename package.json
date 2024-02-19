@@ -1,0 +1,21 @@
+{
+  "name": "server.js",
+  "version": "1.0.0",
+  "description": "Mohdeep Singh",
+  "main": "server.js",
+  "scripts": {
+    "tw:build": "tailwindcss build -i ./public/css/tailwind.css -o ./public/css/main.css",
+      "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Mohdeep Singh",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.10",
+    "daisyui": "^4.7.2",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
